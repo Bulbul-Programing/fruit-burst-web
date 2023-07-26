@@ -7,9 +7,59 @@
     <!-- tailwind and daisyUI link -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <!-- favicon -->
+    <script src="https://kit.fontawesome.com/bd95f66a22.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
 </head>
 <body>
-    <h1>fruit-burst-web</h1>
+    <header>
+        <nav class=" md:bg-[#F85559] lg:bg-[#F85559] bg:white md:mx-10 lg:mx-36 my-8 py-3 px-2 md:px-5 lg:px-7 md:rounded-full lg:rounded-full">
+            <div class="navbar justify-between bg-base-10">
+                <div class="hidden md:hidden lg:block">
+                    <ul class="flex gap-3 text-white font-medium">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Shop</a></li>
+                        <li><a href="">All Fruits</a></li>
+                    </ul>
+                </div>
+                <div class="">
+                  <a href=""><img class="w-12" src="images/logo.png" alt=""></a>
+                  <h3 class="text-4xl font-bold ml-4 text-black md:text-white lg:text-white">Fruit Burst</h3>
+                </div>
+                <div>
+                    <div class="relative hidden md:hidden lg:block">
+                        <input type="text" placeholder="Type here" class="input w-72 rounded-full hidden md:hidden lg:block" />
+                        <i class="fa-solid fa-magnifying-glass text-black absolute top-4 left-64"></i>
+                    </div>
+                    <div class="dropdown lg:navbar-end lg:hidden block text-right">
+                        <label tabindex="0" class="btn btn-ghost align-middle p-2 lg:hidden block btn-circle">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 p-0 m-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+                        </label>
+                        <ul tabindex="0" class="menu menu-sm -ml-20 w-32 lg:hidden block dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Shop</a></li>
+                            <li><a href="">All Fruits</a></li>
+                        </ul>
+                    </div>
+                </div>
+              </div>
+        </nav>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
