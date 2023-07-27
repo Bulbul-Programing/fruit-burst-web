@@ -134,7 +134,6 @@
         </div>
       </div>
     </div>
-    </div>
   </header>
 
   <main>
@@ -200,9 +199,9 @@
           <hr>
           <div class="rating justify-center">
             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"checked />
             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
           </div>
           <a class="font-semibold text-[#F85559]" href="">Details</a>
@@ -214,8 +213,8 @@
           <hr>
           <div class="rating justify-center">
             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
-            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked/>
             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
           </div>
@@ -228,16 +227,17 @@
           <hr>
           <div class="rating justify-center">
             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
-            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
           </div>
           <a class="font-semibold text-[#F85559]" href="">Details</a>
         </div>
       </div>
       <button class="py-3 px-5 block mx-auto text-white  bg-[#F85559] rounded-lg">Shop All</button>
     </div>
+
     <!-- teem section  -->
     <div class="md:mx-10 lg:mx-36 relative mx-4 mt-10 md:mt-12 lg:mt-20 mb-8">
       <img class="hidden md:block lg:block" src="images/team.png" alt="">
@@ -308,10 +308,13 @@
         <h1 class="text-4xl font-extrabold mb-4">Why Choose Us</h1>
         <p class="font-medium text-[#121212]">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
       </div>
-      <div class="flex gap-5 justify-between">
+      <div class="lg:flex md:flex md:flex-col lg:flex-row gap-5 flex-col justify-between">
+        <div class="my-8 lg:hidden md:hidden block">
+          <img src="images/whychoose1.png" alt="">
+        </div>
         <div>
           <div class="flex mb-4">
-            <div class="bg-[#1212121A] h-12 w-12 rounded-full mr-4">
+            <div class="bg-[#1212121A] h-12 w-12 rounded-full md:mb-6 mr-4">
               <i class="fa-solid text-xl p-3 fa-users" style="color: #303030;"></i>
             </div>
             <div>
@@ -320,7 +323,7 @@
             </div>
           </div>
           <div class="flex mb-4">
-            <div class="bg-[#1212121A] h-12 w-12 rounded-full mr-4">
+            <div class="bg-[#1212121A] h-12 w-12 rounded-full md:mb-6 mr-4">
               <i class="fa-solid text-xl p-3 fa-heart" style="color: #303030;"></i>
             </div>
             <div>
@@ -329,7 +332,7 @@
             </div>
           </div>
           <div class="flex mb-4">
-            <div class="bg-[#1212121A] h-12 w-12 rounded-full mr-4">
+            <div class="bg-[#1212121A] h-12 w-12 rounded-full md:mb-6 mr-4">
               <i class="fa-solid text-xl p-3 fa-gift" style="color: #303030;"></i>
             </div>
             <div>
@@ -338,46 +341,47 @@
             </div>
           </div>
         </div>
-        <div class="my-8">
+        <div class="my-8 md:mx-auto lg:block md:block hidden">
           <img src="images/whychoose1.png" alt="">
         </div>
         <div>
-          <div class="flex mb-4">
-            <div class="mr-4">
-              <h4 class="text-lg text-right font-extrabold ">Integrate<span class="pb-3 border-b-2 border-[#121212]">d Supplier</span></h4>
-              <p class="mt-5 text-sm text-right font-medium">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
-            </div>
-            <div class="bg-[#1212121A] h-12 w-12 rounded-full">
+          <div class="flex lg:flex-row-reverse md:mb-6 mb-4">
+            <div class="bg-[#1212121A] md:mr-3 h-12 w-12 rounded-full">
               <i class="fa-solid text-xl p-3 fa-industry" style="color: #303030;"></i>
             </div>
-          </div>
-          <div class="flex mb-4">
             <div class="mr-4">
-              <h4 class="text-lg text-right font-extrabold ">Sustainabl<span class="pb-3 border-b-2 border-[#121212]">e Practice</span></h4>
-              <p class="mt-5 text-sm text-right font-medium">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              <h4 class="text-lg text-left lg:text-right md:text-left font-extrabold ">Integrate<span class="pb-3 border-b-2 border-[#121212]">d Supplier</span></h4>
+              <p class="mt-5 text-sm text-left lg:text-right md:text-left font-medium">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
             </div>
-            <div class="bg-[#1212121A] h-12 w-12 rounded-full">
+          </div>
+          <div class="flex lg:flex-row-reverse md:mb-6 mb-4">
+            <div class="bg-[#1212121A] md:mr-3 h-12 w-12 rounded-full">
               <i class="fa-solid text-xl p-3 fa-ice-cream" style="color: #303030;"></i>
             </div>
-          </div>
-          <div class="flex mb-4">
             <div class="mr-4">
-              <h4 class="text-lg text-right font-extrabold ">The Ben<span class="pb-3 border-b-2 border-[#121212]">efits Only</span></h4>
-              <p class="mt-5 text-sm text-right font-medium">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              <h4 class="text-lg text-left lg:text-right md:text-left font-extrabold ">Sustainabl<span class="pb-3 border-b-2 border-[#121212]">e Practice</span></h4>
+              <p class="mt-5 text-sm text-left lg:text-right md:text-left font-medium">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
             </div>
-            <div class="bg-[#1212121A] h-12 w-12 rounded-full">
-              <i class="fa-solid text-xl p-3 fa-thumbs-up" style="color: #303030;"></i>
+          </div>
+          <div class="flex lg:flex-row-reverse md:mb-6 mb-4">
+            <div class="bg-[#1212121A] md:mr-3 h-12 w-12 rounded-full">
+              <i class="fa-solid text-xl  p-3 fa-thumbs-up" style="color: #303030;"></i>
+            </div>
+            <div class="mr-4">
+              <h4 class="text-lg text-left lg:text-right md:text-left font-extrabold ">The Ben<span class="pb-3 border-b-2 border-[#121212]">efits Only</span></h4>
+              <p class="mt-5 text-sm text-left lg:text-right md:text-left font-medium">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
             </div>
           </div>
           
         </div>
       </div>
     </div>
-
   </main>
 
   <footer>
-
+      <div>
+        
+      </div>
   </footer>
 </body>
 
